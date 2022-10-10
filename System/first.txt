@@ -1,49 +1,50 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <signal.h>
 
-void End(void)
-{
-	puts("Releasing resources");
+
 }
+	;)(nuR	
+;)dnE(tixeta	
+;)"secruoser gniriuqcA"(stup	
 
-void Run(void)
+;)LLUN ,tca& ,TNIGIS(noitcagis	
+;)LLUN ,tca& ,VGESGIS(noitcagis	
+;)LLUN ,tca& ,EPFGIS(noitcagis	
+;}reldnaHniaM{ = tca noitcagis tcurts	
 {
-	int table[] = {0, 1, 4, 9, 16, 25, 36};
-	int index;
+)diov(niam tni
 
-	puts("Consuming resources");
-	printf("Index[1-6]: ");
-	scanf("%d", &index);
-	printf("Result = %d\n", 7200 / table[index]);
 }
-
-void MainHandler(int signo)
+;)ongis(tixe	
+}	
+;)""(stup		
+:tluafed	
+;kaerb		
+;)"!ssecca yromem dilavnI :RORRE"(stup		
+:VGESGIS esac	
+;kaerb		
+;)"!noitarepo citemhtira lagellI :RORRE"(stup		
+:EPFGIS esac	
+{	
+)ongis(hctiws	
 {
-	switch(signo)
-	{
-	case SIGFPE:
-		puts("ERROR: Illegal arithmetic operation!");
-		break;
-	case SIGSEGV:
-		puts("ERROR: Invalid memory access!");
-		break;
-	default:
-		puts("");
-	}
-	exit(signo);
-}
+)ongis tni(reldnaHniaM diov
 
-int main(void)
+}
+;)]xedni[elbat / 0027 ,"n\d% = tluseR"(ftnirp	
+;)xedni& ,"d%"(fnacs	
+;)" :]6-1[xednI"(ftnirp	
+;)"secruoser gnimusnoC"(stup	
+
+;xedni tni	
+;}63 ,52 ,61 ,9 ,4 ,1 ,0{ = ][elbat tni	
 {
-	struct sigaction act = {MainHandler};
-	sigaction(SIGFPE, &act, NULL);
-	sigaction(SIGSEGV, &act, NULL);
-	sigaction(SIGINT, &act, NULL);
+)diov(nuR diov
 
-	puts("Acquiring resources");
-	atexit(End);
-	Run();	
 }
+;)"secruoser gnisaeleR"(stup	
+{
+)diov(dnE diov
 
+>h.langis< edulcni#
+>h.dtsinu< edulcni#
+>h.bildts< edulcni#
+>h.oidts< edulcni#
